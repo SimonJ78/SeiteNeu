@@ -1,0 +1,145 @@
+@font-face {
+    font-family: 'hollow';
+    src: url('fonts/hollow.ttf') format('truetype');
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    font-weight: bold;
+}
+
+#title {
+    background: linear-gradient(to bottom, #2f4f4f 90%, #6B728E 100%);
+    color: #fff;
+}
+
+h1 {
+    font-size: 3rem;
+    line-height: 1.5;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container-fluid {
+    padding: 3% 15%;
+}
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.navbar-brand {
+    font-size: 2rem;
+    font-family: hollow, sans-serif;
+}
+
+.navbar {
+    margin-bottom: 1rem;
+}
+
+.nav-item {
+    margin: 0 1rem 0 1rem;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+}
+
+.title-info {
+    text-align: left;
+}
+
+.download-btn {
+    margin: 5% 15% 0 0;
+}
+
+.title-image {
+    width: 300px;
+}
+
+
+#features {
+    background: #6B728E;
+}
+
+.features-row {
+    font-family: Montserrat-, sans-serif;
+    font-weight: 400;
+    padding-top: 3%;
+}
+
+.features-col {;
+    padding: 0 10%;
+}
+
+.features-icon {
+    margin-bottom: 3%;
+    color: floralwhite;
+}
+
+#game-info {
+    background: #6B728E
+}
+
+p {
+    font-family: Ubuntu, sans-serif;
+    font-weight: 400;
+}
+
+h3{
+    font-weight: 600;
+}
+
+.game-info{
+
+}
+
+.game-info-brand {
+    overflow: hidden;
+    padding: 2% 2.5% 0 2.5%;
+    width: fit-content;
+    margin: auto;
+}
+
+@media (max-width: 768px) {
+    body{
+        font-size: 0.8rem;
+    }
+}
+
+@media (max-width: 576px) {
+    body{
+        font-size: 0.6rem;
+    }
+}
+
+.game-info-brand:hover > .game-info-text{
+    overflow-wrap: break-word;
+    width: 30rem;
+    height: 9rem;
+}
+
+.game-info-text{
+    overflow: hidden;
+    height: 0;
+    width: 0;
+    transition: width 1s, height 1s, transform 1s ease-in-out;
+}
+
+.border-rounded{
+    border-radius: 10px;
+    border: solid 1px black;
+}
+
+.carousel-item{
+    height: 200px;
+}
+
+.carousel-item > *{
+    height: 40%;
+}
+
+.carousel-inner{
+    padding: 1% 5%;
+    text-align: center;
+}
