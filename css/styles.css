@@ -70,6 +70,7 @@ body {
     font-family: Montserrat-, sans-serif;
     font-weight: 400;
     padding-top: 3%;
+    margin: auto;
 }
 
 .features-col {;
@@ -92,10 +93,6 @@ p {
 
 h3{
     font-weight: 600;
-}
-
-.game-info{
-
 }
 
 .game-info-brand {
